@@ -1,9 +1,10 @@
 spring:
   profiles:
     active: dev
-  config:
-    override-none: true
-    override-system-properties: false
+  cloud:
+    config:
+      override-none: true
+      override-system-properties: false
 
 ---
 server:
